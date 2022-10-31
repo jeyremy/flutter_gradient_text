@@ -45,7 +45,7 @@ class GradientText extends StatelessWidget {
     this.radius = 1.0,
     this.style,
     this.textAlign,
-    this.textScaleFactor
+    this.textScaleFactor,
     this.maxLines,
   })  : assert(
           colors.length >= 2,
